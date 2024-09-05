@@ -19,6 +19,7 @@ export default function Home() {
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
       <button
+      className="w-[50%] h-[40px] bg-blue-500"
         onClick={() =>
           initAuth(
             (result) => {
@@ -36,6 +37,7 @@ export default function Home() {
       </button>
       {/* uncomment the button below to enable get customer profile button */}
       <button
+      className="w-[50%] h-[40px] bg-blue-500"
         onClick={async () => {
           const result = await getCustomerProfile(
             sessionStorage.getItem("accessToken") ?? ""
@@ -47,6 +49,7 @@ export default function Home() {
       </button>
       {/* uncomment the button below to enable payment button */}
       <button
+      className="w-[50%] h-[40px] bg-blue-500"
         onClick={() =>
           initPayment((errorCode, errorDescription) => {
             console.error(errorCode, errorDescription);
