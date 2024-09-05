@@ -47,7 +47,7 @@ export const httpGetCustomerProfile = async (
       {},
       {
         headers: {
-          Authorization: `Bearer ${accessToken}`,
+          Authorization: `Bearer a${accessToken}`,
         },
       }
     );
