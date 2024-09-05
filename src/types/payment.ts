@@ -20,3 +20,4 @@ export interface InquiryTransactionResponse extends commonAPIResponse {
 }
 
 export type InquiryTransactionResponseData = InquiryTransactionResponseLib;
+
