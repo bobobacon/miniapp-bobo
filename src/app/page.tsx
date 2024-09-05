@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
-      <div className="flex gap-[24px] items-center my-[35px]">
+      <div className="flex flex-col gap-[24px] items-center my-[35px]">
         <div className="relative inline-flex  group">
           <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
           <button
