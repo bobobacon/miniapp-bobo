@@ -107,4 +107,3 @@ export const httpInquiryTransaction = async (
     throw new LibError(`inquiry transaction error: ${error}`, "LB9999", error);
   }
 };
-
